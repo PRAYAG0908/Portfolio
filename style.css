@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.navbar{
+    background-color:black;
+    height: 57px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+    padding: 35px;
+    font-size: larger;
+    /* font-family: monospace; */
+    font-size: 22px;
+    text-transform: uppercase;
+}
+#name{
+    font-size: 140px;
+    text-transform: uppercase;
+}
+
+#role{
+    font-size: 55px;
+    padding-left: 10px;
+}
+
+
+section{
+    height:675px;
+    z-index: 10;
+    position: relative;
+    padding-top: 60px;
+    background: linear-gradient(to left, rgb(5, 5, 65),rgb(48, 3, 48), rgb(48, 3, 48));
+}
+
+#name,#role{
+    font-family: monospace;
+    font-weight: 100;
+    letter-spacing: 10px;
+}
+.pic{
+    height:450px;
+    right:100px;
+    border-radius: 50%;
+    padding: 100px;
+}
+
+.page1info{
+    padding: 150px 0 10px 50px;
+}
+#home{
+    padding-top: 60px;
+    display:flex;
+    justify-content: space-between;
+}
+
+#about{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+summary{
+    text-align: center;
+    font-size: 20px;
+    width: 50%;
+}
+
+.heading{
+    padding-bottom: 70px;
+    font-size: 50px;
+}
+
+#tech,#exp,#edu,#contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width:1300px){
+    #tech{
+        height: max-content;
+    }
+
+}
+
+#spanitems{
+   display: flex;
+   flex-wrap: wrap;
+}
+
+#spanitems span{
+    padding: 100px;
+    font-size: 20px;
+ }
+
+
+#contactdetails{
+    display: flex;
+    gap: 100px;
+}
+
+.warndesc,.warnImage{
+    display: none;
+ }
+
+
+@media (max-width:450px){
+    .warning{
+       display: none;
+    }
+    .warnImage{
+        display: flex;
+        justify-content: center;
+        height: 200px;
+    }
+
+    .warndesc{
+        display: flex;
+        color: black;
+        align-items: center;
+        font-size: 50px;
+        
+     }
+}
+    
