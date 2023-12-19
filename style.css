@@ -37,6 +37,7 @@ html{
 #role{
     font-size: 55px;
     padding-left: 10px;
+    padding-top:20px;
 }
 
 
@@ -77,7 +78,7 @@ section{
 
 summary{
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
     width: 50%;
 }
 
@@ -104,6 +105,12 @@ summary{
    flex-wrap: wrap;
 }
 
+.centeralign{
+    display: flex;
+    align-items: flex-end;
+}
+
+
 #spanitems span{
     padding: 100px;
     font-size: 20px;
@@ -113,6 +120,11 @@ summary{
 #contactdetails{
     display: flex;
     gap: 100px;
+}
+
+#contactdetails div a{
+    font-size: 25px;
+    text-decoration: none;
 }
 
 .warndesc,.warnImage{
