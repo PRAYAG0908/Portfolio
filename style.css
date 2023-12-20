@@ -73,10 +73,12 @@ section{
     right:100px;
     border-radius: 50%;
     padding: 100px;
+    z-index:105;
 }
 
 .page1info{
     padding: 150px 0 10px 50px;
+    z-index:101;
 }
 #home{
     padding-top: 60px;
