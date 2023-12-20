@@ -60,7 +60,7 @@ section{
     z-index: 10;
     position: relative;
     padding-top: 60px;
-    background: linear-gradient(to left, rgb(5, 5, 65),rgb(48, 3, 48), rgb(48, 3, 48));
+    background: linear-gradient(to left,rgb(1, 1, 29),rgb(48, 3, 48), rgb(29, 1, 29));
 }
 
 #name,#role{
